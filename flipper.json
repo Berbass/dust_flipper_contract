@@ -1,0 +1,89 @@
+{
+  "contract": {
+    "authors": [
+      "unknown"
+    ],
+    "name": "flipper",
+    "version": "0.0.1"
+  },
+  "metadataVersion": "0.1.0",
+  "source": {
+    "compiler": "solang 0.1.4",
+    "hash": "0x07a0a85ee0a439623d5b3feccd6b3ea2e8a4a4e75c283a8fe5476c7d0c9fde72",
+    "language": "Solidity 0.1.4"
+  },
+  "spec": {
+    "constructors": [
+      {
+        "args": [
+          {
+            "name": "initvalue",
+            "type": {
+              "display_name": [
+                "bool"
+              ],
+              "type": 1
+            }
+          }
+        ],
+        "docs": [
+          ""
+        ],
+        "name": "new",
+        "selector": "0xf81e7e1a"
+      }
+    ],
+    "events": [],
+    "messages": [
+      {
+        "args": [],
+        "docs": [
+          ""
+        ],
+        "mutates": true,
+        "name": "flip",
+        "payable": false,
+        "return_type": null,
+        "selector": "0xcde4efa9"
+      },
+      {
+        "args": [],
+        "docs": [
+          ""
+        ],
+        "mutates": false,
+        "name": "get",
+        "payable": false,
+        "return_type": {
+          "display_name": [
+            "bool"
+          ],
+          "type": 1
+        },
+        "selector": "0x6d4ce63c"
+      }
+    ]
+  },
+  "storage": {
+    "struct": {
+      "fields": [
+        {
+          "layout": {
+            "cell": {
+              "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "ty": 1
+            }
+          },
+          "name": "value"
+        }
+      ]
+    }
+  },
+  "types": [
+    {
+      "def": {
+        "primitive": "bool"
+      }
+    }
+  ]
+}
